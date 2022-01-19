@@ -1,0 +1,55 @@
+body {
+    background-color: #ffefd5;
+}
+ul {
+    list-style-type: none;
+    margin: 16px 32px;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+    
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .logo-text{
+    font-style: italic;
+  }
+    
+  li a:hover:not(.active) {
+    color: #ffb300;
+  }
+    
+  .active {
+    color: #004258;
+  }
+
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+  }
+  img { 
+    width:100%;
+    max-width: 500px;
+    height: auto;
+    padding-left: 500px;
+  }
+  .b {
+      padding: 0px 48px 48px 48px;
+      font-size: 18px;
+      font-family: sans-serif;
+  }
+  
