@@ -1,0 +1,146 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 16px 32px;
+}
+  
+li {
+  float: right;
+}
+
+.logo {
+  float: left;
+}
+  
+li a {
+  display: block;
+  color: #3a3a3a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+.active{
+  font-style: italic;
+}
+  
+li a:hover:not(.active) {
+  color: #ffb300;
+}
+  
+.active {
+  color: #004258;
+}
+
+.back img {
+  width: 100%;
+  height: 700px;
+  filter: brightness(50%);
+}
+.judul {
+  color: whitesmoke;
+  width: 100%;
+	float: left;
+	position: relative;
+}
+.judul .text1 {
+  width: 300px;
+	position: absolute;
+	top: 150px;
+	right: 35px;
+  font-size: 60px;
+}
+.pp img { 
+  width:100%;
+  max-width: 400px;
+  height: auto;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.content1 {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+}
+
+.text1 {
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#tag {
+  margin-top: 0;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+.content2 .a {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+.content2 h1 {
+  padding: 20px;
+}
+.teks {
+  font-size: 25px;
+  padding: 0 48px 48px 48px;
+}
+.content2 {
+  max-width: 100%;
+}
+.vv img {
+  padding-left: 400px;
+}
+.container img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+@media screen and (max-width: 460px) {
+ 
+	nav.menu ul a {
+		padding:15px;
+		font-size: 14px;
+	}
+ 
+	.container {
+		display:none
+	}
+	.post-info {
+		display:none;
+	}
+ 
+	.conteudo {
+		margin:25px auto;
+	}
+ 
+	.conteudo img {
+		margin:-5% 0 25px -5%;
+	}			
+}
+
+
+
+
+
+
+
+
+
+
+
+
